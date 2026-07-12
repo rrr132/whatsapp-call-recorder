@@ -1,0 +1,29 @@
+# Gradle files
+.gradle/
+build/
+*.apk
+*.ap_
+*.aab
+
+# Local configuration file
+local.properties
+
+# Android Studio files
+.idea/
+.DS_Store
+*.iml
+*.iws
+*.ipr
+
+# User-specific configurations
+.classpath
+.project
+.pydevproject
+.settings/
+.vscode/
+
+# Build output
+bin/
+out/
+.gradle
+.idea

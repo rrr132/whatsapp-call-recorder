@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WhatsApp Call Recorder</string>
+    <string name="app_title">WhatsApp Call Recorder</string>
+    <string name="status_idle">Status: Idle</string>
+    <string name="status_recording">Status: Recording</string>
+    <string name="info_text">Automatically records WhatsApp calls with consent notification</string>
+    <string name="start_recording">Start Recording</string>
+    <string name="stop_recording">Stop Recording</string>
+    <string name="permission_required">Recording permissions required</string>
+</resources>
