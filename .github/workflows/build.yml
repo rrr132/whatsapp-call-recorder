@@ -1,0 +1,27 @@
+name: Build APK
+
+оп:
+
+push:
+
+branches [main]
+
+jobs:
+
+build:
+
+runs-on: ubuntu-latest
+
+steps:
+
+uses: actions/checkout@v3
+
+uses: actions/setup-Java@v
+
+with:
+
+java-version: '11'
+
+run: chmod +x gradlew
+
+run: ./gradlew assembleDebug
